@@ -1,0 +1,13 @@
+Feature: Log in into Ebay Website
+  
+  Scenario Outline: As a user, I want to sign in into Ebay Website 
+
+   Given I am on the login page
+   When I login with <username> and <password>
+   Then Home page is displayed
+   
+
+   Examples:
+      | username                  | password|                        
+      | belenbonivardo98@gmail.com| Test1234|       
+      | u299nkp1@cj.MintEmail.com | Test1234|          

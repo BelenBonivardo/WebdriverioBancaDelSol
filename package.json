@@ -1,0 +1,26 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "framework using cucumber and webdriverio",
+  "main": "index.js",
+  "scripts": { 
+    "test": "wdio ./wdio.conf.js --cucumberOpts.tagExpression",
+    "wdio": "wdio run ./wdio.conf.js"
+   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "webdriverio"
+  ],
+  "author": "Belen Bonivardo",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.36.1",
+    "@wdio/cucumber-framework": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "wdio-wait-for": "^3.0.11"
+  }
+}
